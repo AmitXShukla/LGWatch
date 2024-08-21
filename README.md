@@ -23,8 +23,7 @@ sankey-beta
  Air, Weather, 25
  Quake, Weather, 25
  Weather, LGWatch, 35
- Smoke, Sensors, 25ls
- 
+ Smoke, Sensors, 25
  Siren, Sensors, 25
  break-in, Sensors, 25
  moisture, Sensors, 25
@@ -40,6 +39,7 @@ sankey-beta
  LGWatch, Friends, 20
  LGWatch, Locals, 20
 ```
+
 click here for a live [demo]() and [video]().
 
 ## Tools
