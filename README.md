@@ -45,7 +45,7 @@ click here for a live [demo]() and [video]().
 ## Tools
 	Backend: Firebase
 	UI/UX: Flutter
-	AI: Groq, BYOA (bring your own AI, Anthropic, Gemini, OpenAI ..)
+	AI: GROQ, BYOA (bring your own AI, Anthropic, Gemini, OpenAI ..)
 	Platform: LGWebOS
 
 ## sample App images
