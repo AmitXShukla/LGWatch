@@ -1,0 +1,13 @@
+{
+    "appId":"@TAS_SERVICE_NAME@",
+    "allowedNames": ["@TAS_SERVICE_NAME@"],
+    "type": "regular",
+    "trustLevel": "oem",
+    "permissions": [
+        {
+            "service":"@TAS_SERVICE_NAME@",
+            "inbound":["*"],
+            "outbound":["*"]
+        }
+    ]
+}

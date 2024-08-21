@@ -1,0 +1,18 @@
+{
+    "appId":"@SERVICE_NAME@",
+    "allowedNames": ["@SERVICE_NAME@", "@SERVICE_NAME@.*"],
+    "type": "regular",
+    "trustLevel": "oem",
+    "permissions": [
+        {
+            "service":"@SERVICE_NAME@",
+            "inbound":["*"],
+            "outbound":["*"]
+        },
+        {
+            "service":"@SERVICE_NAME@.*",
+            "inbound":["*"],
+            "outbound":["*"]
+        }
+    ]
+}

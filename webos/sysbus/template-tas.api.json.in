@@ -1,0 +1,6 @@
+{
+  "public": [
+      "@TAS_SERVICE_NAME@/request",
+      "@TAS_SERVICE_NAME@/finish"
+  ]
+}

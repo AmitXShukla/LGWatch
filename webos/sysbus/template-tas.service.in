@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=@TAS_SERVICE_NAME@
+Exec=@WEBOS_FLUTTER_APP_RUNNER@
+Type=static
