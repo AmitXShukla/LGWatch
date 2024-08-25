@@ -258,7 +258,7 @@ class AuthBloc extends Object {
 //        }'
 
 // Future<Map<String, dynamic>> postRequest(String nick, String password) async {
-//   var api_key = "AIzaSyDWPguFyN5HL2cD62sBxlDHTnReI80i8K4";
+//   var api_key = "AIxxxxxxx";
 //   var url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=$api_key';
 //   var body = json.encode({
 //     'nick': nick,
@@ -284,7 +284,7 @@ class AuthBloc extends Object {
 Future getPrompt(PromptDataModel promptData) async {
   setData("history", promptData);
   // final apiKey = Platform.environment['GEMINI_API_KEY'];
-  const apiKey = "AIzaSyDWPguFyN5HL2cD62sBxlDHTnReI80i8K4";
+  const apiKey = "AIxxxxxxx";
   if (apiKey == null) {
     stderr.writeln(r'No API_KEY environment variable');
     exit(1);
