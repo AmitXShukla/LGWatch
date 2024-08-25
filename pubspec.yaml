@@ -37,6 +37,12 @@ dependencies:
   cupertino_icons: ^1.0.2
   firebase_core: ^2.24.2
   firebase_auth: ^4.16.0
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  cloud_firestore: ^4.14.0
+  google_sign_in: ^6.1.6
+  google_generative_ai: ^0.4.5
 
 dev_dependencies:
   flutter_test:
@@ -54,7 +60,7 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
+  generate: true # Add this line
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
@@ -64,6 +70,32 @@ flutter:
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/ai_1.png
+    - assets/ai_2.png
+    - assets/process.png
+    - assets/images/sensors.jpg
+    - assets/images/sensor_2.png
+    - assets/images/pic_1.png
+    - assets/images/pic_2.png
+    - assets/images/pic_3.png
+    - assets/images/pic_4.png
+    - assets/images/pic_5.png
+    - assets/images/pic_6.png
+    - assets/images/pic_7.png
+    - assets/images/pic_8.png
+    - assets/images/hz_1.png
+    - assets/images/hz_2.png
+    - assets/images/hz_3.png
+    - assets/images/hz_4.png
+    - assets/images/hz_5.png
+    - assets/images/hz_6.png
+    - assets/images/hz_7.png
+    - assets/images/hz_8.png
+    - assets/images/p2p_1.png
+    - assets/images/p2p_2.png
+    - assets/images/p2p_3.png
+    - assets/images/p2p_4.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
