@@ -40,7 +40,7 @@ sankey-beta
  LGWatch, Locals, 20
 ```
 
-click here for a live [demo]() and [video]().
+click here for a live [demo](https://amitxshukla.github.io/LGWatch/) and [video]().
 
 ## Tools
 	Backend: Firebase
