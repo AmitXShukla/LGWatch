@@ -113,3 +113,16 @@ stateDiagram-v2
 ![image_1](./assets/images/banner_2.png)
 ![image_1](./assets/images/banner_3.png)
 ![image_1](./assets/images/banner_4.png)
+
+## Planned features
+
+    Multilanguage: add more language support
+    History: delete | retain individual chat, re-generate prompt
+    Media: delete | retain individual pic, re-generate prompt
+    SignIn: add phone authentication
+    Notification: push, email, Text, Emergency, Badge
+    LG.Watch.AI: feedback, auto update RAG
+    LG.Watch.AI: file upload (limit per user)
+    LG.Watch.AICommunity: auto complete to current GeoLocation | google Location API
+    update API key (user to upload their own keys)
+    update Alert, Community Alert, Snooze, Bookmark functionality
